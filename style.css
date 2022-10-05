@@ -1,12 +1,12 @@
 body {
-    cursor: crosshair;
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
-}
+
+  }
 
 .vimeo-wrapper {
   position: fixed;
@@ -31,7 +31,7 @@ body {
 
  h3 {
      background-color: whitesmoke;
-     opacity: 80% ;
+     opacity: 70% ;
      color: black;
      display: inline-block;
      position: absolute;
@@ -39,11 +39,18 @@ body {
      padding: 2%;
      right: 23%;
      left: 23%;
-     font-family: '', monospace;
+     font-family: 'DM Sans', sans-serif;
      font-size: 1vw;
      text-decoration: none;
     }
-        
+
+  .united-screens {
+    display: inline-block;
+    position: fixed;
+    padding: 1%;
+  }
+  
+  
 .row {
 float: center;
 width: 33.33%;
